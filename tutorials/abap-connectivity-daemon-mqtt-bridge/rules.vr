@@ -1,0 +1,13 @@
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+What does the statement WAIT FOR MESSAGING CHANNELS do?
+
+###Match
+[X] Wait for the program to receive a message via AMC.
+[ ] Wait for the program to receive an MQTT message. 
+[ ] Wait until a connection to an ABAP Messaging Channel has been established.
+
+[VALIDATE_1]
