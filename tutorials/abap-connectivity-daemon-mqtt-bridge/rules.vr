@@ -10,4 +10,4 @@ What does the statement WAIT FOR MESSAGING CHANNELS do?
 [ ] Wait for the program to receive an MQTT message. 
 [ ] Wait until a connection to an ABAP Messaging Channel has been established.
 
-[VALIDATE_1]
+[VALIDATE_2]
