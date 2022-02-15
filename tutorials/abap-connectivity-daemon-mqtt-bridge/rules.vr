@@ -11,3 +11,26 @@ What does the statement WAIT FOR MESSAGING CHANNELS do?
 [ ] Wait until a connection to an ABAP Messaging Channel has been established.
 
 [VALIDATE_1]
+[VALIDATE_2]
+###Rule
+regex-substring
+
+###Match
+RegionTextsView
+
+[VALIDATE_2]
+[VALIDATE_3]
+###Rule
+multiple-choice
+
+###Question
+The SQL Endpoint information of your standalone data lake consists of information on:
+(Multiple answers may be correct.)
+
+###Match
+[x] Port
+[x] Instance ID
+[x] Landscape
+[ ] API Endpoint
+
+[VALIDATE_3]
