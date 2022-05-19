@@ -1,0 +1,73 @@
+
+[VALIDATE_1]
+###Rule
+multiple-choice
+
+###Question
+Which commands can you enter in the sapcp CLI to get help for creating a subaccount?
+
+###Match
+[ ] sapcp create accounts/subaccount help
+[x] sapcp create accounts/subaccount --help
+[ ] sapcp -h create accounts/subaccount
+[x] sapcp --help create accounts/subaccount
+
+[VALIDATE_1]
+
+
+[VALIDATE_2]
+###Rule
+single-choice
+
+###Question
+Is the creation of a subaccount a synchronous process?
+
+###Match
+[ ] Yes
+[x] No
+
+[VALIDATE_2]
+
+
+[VALIDATE_3]
+###Rule
+exact-match-precise
+
+###Question
+Which command in the "main" function creates the Cloud Foundry space?
+
+###Match
+create_new_space "$org" "$space"
+
+[VALIDATE_3]
+
+
+[VALIDATE_4]
+###Rule
+single-choice
+
+###Question
+In the cockpit, the "Enable Cloud Foundry" button (in the subaccount's Overview page) has the same function as which command in the script?
+
+###Match
+[ ] create_new_space "$org" "$space"
+[ ] org="$(echo "$subaccounts" | cut -d' ' -f 1)_org"
+[x] create_cf_environment "$subaccount" "$subaccount_id" "${subaccount}_org
+
+[VALIDATE_4]
+
+
+[VALIDATE_5]
+###Rule
+single-choice
+
+###Question
+How did the subaccounts get their service entitlements?
+
+###Match
+[ ] You explicitly assigned the quota of these services to the subaccounts.
+[x] They automatically inherited them from the directory's entitlements.
+[ ] They automatically inherited them from their global account's entitlements.
+[ ] The subaccounts are not assigned any service entitlements.
+
+[VALIDATE_5]
